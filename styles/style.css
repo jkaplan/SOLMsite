@@ -95,6 +95,8 @@ h3 {
 p {
 	max-width: 800px;
 }
+
+
 #logo {
 	position: relative;
 	left: 424px;
@@ -270,8 +272,14 @@ video {
 
 /*---------------------Services Page-----------------------*/
 
+#services h3 {
+	background: url(../images/hope.jpg) no-repeat;
+	height:180px;
+	padding-top: 20px;
+}
 #services ul {
-	margin-left: 48px;
+	margin: -130px 0 0 48px;
+
 }
 
 	#services ul li {
@@ -290,6 +298,23 @@ video {
 
 /*---------------------Contact Us Page-----------------------*/
 
+#contact h3 {
+	font: 2em'CACChampagneRegular';
+
+}
+
+#contact span {
+	font-family: 'OswaldBook';
+}
+
+#contact div {
+	margin-right: 150px;
+}
+
+#contact div p {
+	margin-bottom: 8px;
+
+}
 /*---------------------------Footer-------------------------*/
 
 footer {
