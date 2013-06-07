@@ -87,6 +87,10 @@ h1 {
 h2 {
 	font: 2.3em 'CACChampagneRegular';
 }
+
+p {
+	max-width: 800px;
+}
 #logo {
 	position: relative;
 	left: 424px;
@@ -139,10 +143,21 @@ h2 {
 				color: rgb(130,197,195);
 			}
 
-.pink a {
+.pink, .pink a {
 	color: rgb(255,2,197);
 }
 
+.green {
+	color: rgb(150,183,137);
+}
+
+.blue {
+	color: rgb(130,197,195);
+}
+
+.orange {
+	color: rgb(242,162,102);
+}
 /*---------------------Home Page-----------------------*/
 
 #mainContent {
@@ -174,7 +189,7 @@ video {
 	#servicesList ul {
 		margin-left: 48px;
 	}
-
+/*-----Lambs List-------*/
 #monthlyLambs{
 	clear: both;
 	width: 680px;
@@ -216,7 +231,7 @@ video {
 		text-transform: uppercase;
 		text-decoration: none;
 	}
-	/*----Lamb Colors----*/
+	/*-------Lamb Colors------*/
 	.lambPink {
 		background-color: rgb(240,84,171);
 	}
@@ -235,6 +250,31 @@ video {
 	.lambOrangeLight {
 		background-color: rgb(255,195,151);
 	}
+
+/*---------------------About Us Page-----------------------*/
+#history h3 {
+	margin: 0 0 16px 46px;
+}
+
+#staff div {
+	text-align: right;
+	margin-right: 250px;
+}
+
+
+/*---------------------Services Page-----------------------*/
+
+/*---------------------Partners Page-----------------------*/
+
+/*---------------------Testimonials Page-----------------------*/
+
+/*---------------------Gallery Page-----------------------*/
+
+/*---------------------Newsletter Page-----------------------*/
+
+/*---------------------Donate Page-----------------------*/
+
+/*---------------------Contact Us Page-----------------------*/
 
 /*---------------------------Footer-------------------------*/
 
