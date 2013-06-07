@@ -1,5 +1,5 @@
 /*----
-Last edited by Susan on 6-6-13
+Last edited by Susan on 6-7-13
 ----*/
 
 * {
@@ -244,12 +244,12 @@ footer {
 	width: 1024px;
 	height: 350px;
 	margin-top: 100px;
-	padding: 24px 0 8px 0;
+	padding: 16px 0 8px 0;
 }
 
 	footer ul {
 		list-style-type: none;
-		margin: 24px 0 0 185px;
+		margin: 0 0 0 185px;
 		text-transform: uppercase;
 	}
 	
