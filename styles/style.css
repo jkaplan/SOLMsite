@@ -1,0 +1,310 @@
+/*----
+Last edited by Susan on 6-6-13
+----*/
+
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	font-family: "OswaldLight";
+	line-height: 1.6em;
+}
+/*----------------------------------------------------------------------------------------------------------------------------------
+														Color Guide
+----------------------------------------------------------------------------------------------------------------------------------*/
+/*
+teal/blue - rgb(130,197,195)
+pink - rgb(255,2,197)
+green - rgb(150,183,137)
+orange - rgb(242,162,102)
+grey- rgb(81,80,80)
+black - rgb(49,49,49)
+white - rgb(255,239,238)
+*/
+/***********************************************************************************************************************************
+														Main Styles Start Here
+***********************************************************************************************************************************/
+/*------------------------------Fonts-------------------------*/
+@font-face {
+    font-family: 'OswaldLight';
+    src: url('../fonts/Oswald-Light-webfont.eot');
+    src: url('../fonts/Oswald-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Oswald-Light-webfont.woff') format('woff'),
+         url('../fonts/Oswald-Light-webfont.ttf') format('truetype'),
+         url('../fonts/Oswald-Light-webfont.svg#OswaldLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OswaldBook';
+    src: url('../fonts/Oswald-Regular-webfont.eot');
+    src: url('../fonts/Oswald-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Oswald-Regular-webfont.woff') format('woff'),
+         url('../fonts/Oswald-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Oswald-Regular-webfont.svg#OswaldBook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OswaldBold';
+    src: url('../fonts/Oswald-Bold-webfont.eot');
+    src: url('../fonts/Oswald-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Oswald-Bold-webfont.woff') format('woff'),
+         url('../fonts/Oswald-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/Oswald-Bold-webfont.svg#OswaldBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'CACChampagneRegular';
+    src: url('../fonts/cac_champagne-webfont.eot');
+    src: url('../fonts/cac_champagne-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/cac_champagne-webfont.woff') format('woff'),
+         url('../fonts/cac_champagne-webfont.ttf') format('truetype'),
+         url('../fonts/cac_champagne-webfont.svg#CACChampagneRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*------------------------General-------------------------*/
+body {
+	width: 1024px;
+	margin: 0 auto;
+	position: relative;
+}
+
+
+h1 {
+	margin-left: -10000px;
+}
+
+h2 {
+	font: 2.3em 'CACChampagneRegular';
+}
+#logo {
+	position: relative;
+	left: 424px;
+}
+
+.floatR {
+	float: right;
+}
+
+.floatL {
+	float: left;
+}
+
+.clearL {
+	clear:left;
+}
+
+.clearR {
+	clear:right;
+}
+/*--------------------Main Navigation-------------------*/
+.mainNav {
+	margin-bottom: 86px;
+	
+}
+	.mainNav ul {
+		list-style-type: none;
+		margin: 10px 75px 0 75px;
+		border-top: 1px solid rgb(130,197,195);
+	}
+		
+		.mainNav li{
+			float: left;
+			text-transform: uppercase;
+			margin-left: 64px;
+
+		}
+
+		.mainNav a {
+			display: block;
+			padding: 10px;
+			font-size: 1.3em;
+			text-decoration: none;
+			color: rgb(55,55,55);
+		}
+			.mainNav a:visited {
+				color: rgb(121,120,120);
+			}
+			.mainNav a:hover {
+				color: rgb(130,197,195);
+			}
+
+.pink a {
+	color: rgb(255,2,197);
+}
+
+/*---------------------Home Page-----------------------*/
+
+#mainContent {
+	padding: 0 32px;
+}
+
+#whoWeAre {
+	width: 540px;
+}
+
+video {
+	width: 480px;
+	height: 271px;
+	background-color: black;
+	margin: 0 0 80px 48px;
+}
+	#mainContent h2 {
+		margin: 32px 0 16px 0;
+	}
+
+	#mainContent p {
+		margin: 0 0 32px 48px;
+	}
+
+#servicesList {
+	width: 330px;
+}
+
+	#servicesList ul {
+		margin-left: 48px;
+	}
+
+#monthlyLambs{
+	clear: both;
+	width: 680px;
+	margin: 0 auto 100px auto;
+}
+
+	#monthlyLambs h2 {
+		text-align: center;
+	}
+
+	#lambOrnament {
+		margin: 500px 0 100px 184px;
+		background-image: url(../images/lambsOrnament.png);
+		width: 306px;
+		height: 122px;
+	}
+
+.lamb {
+	width: 136px;
+	height: 136px;
+	float: left;
+	margin: 16px 8px 0 8px;
+	padding: 8px;
+	
+}
+
+	#monthlyLambs p {
+		margin: 0;
+		font-size: 0.8em;
+	}
+
+	.lamb a, .lamb h3{
+		color: rgb(255,239,238);
+	}
+
+	.lamb a {
+		font-size: 0.95em;
+		float: right;
+		text-transform: uppercase;
+		text-decoration: none;
+	}
+	/*----Lamb Colors----*/
+	.lambPink {
+		background-color: rgb(240,84,171);
+	}
+	.lambGreen {
+		background-color: rgb(150,183,137);
+	}
+	.lambOrange {
+		background-color: rgb(242,162,102);
+	}
+	.lambPinkLight {
+		background-color: rgb(264,151,204);
+	}
+	.lambGreenLight {
+		background-color: rgb(201,214,181);
+	}
+	.lambOrangeLight {
+		background-color: rgb(255,195,151);
+	}
+
+/*---------------------------Footer-------------------------*/
+
+footer {
+	clear: both;
+	background: rgb(130,197,195);
+	width: 1024px;
+	height: 350px;
+	margin-top: 100px;
+	padding: 24px 0 8px 0;
+}
+
+	footer ul {
+		list-style-type: none;
+		margin: 24px 0 0 185px;
+		text-transform: uppercase;
+	}
+	
+		footer ul li {
+			float: left;
+			margin-right: 70px;
+
+		}
+
+		footer a {
+			display: block;
+			text-decoration: none;
+			color: rgb(255,239,238);
+			font-size: 1.2em;
+		}
+			footer a:visited {
+				color: rgb(121,120,120);
+			}
+			footer a:hover {
+				color: rgb(161,167,160);
+			}
+
+	#secondaryFooterNav li {
+		float: none;
+		margin-left: 120px;
+		text-transform: lowercase;
+	}
+
+	footer .pink {
+		color: rgb(240,84,171);
+	}
+
+	footer img {
+		margin: -10px 0 0 410px;
+
+	}
+
+	footer p {
+		color: rgb(255,239,238);
+		font-size: 0.8em;
+		margin: 8px 32px;
+		line-height: 0.6em;
+	}
+
+	#aboutFooter {
+		margin-right: 70px;
+	}
+		#aboutFooter p{
+			text-align: right;
+		}
+
+		#aboutFooter img {
+			margin-left: 58px;
+		}
+
+		#aboutDesigner {
+			margin: 132px 0 0 80px;
+		}
