@@ -88,6 +88,10 @@ h2 {
 	font: 2.3em 'CACChampagneRegular';
 }
 
+h3 {
+	margin: 0 0 16px 46px;
+}
+
 p {
 	max-width: 800px;
 }
@@ -221,7 +225,7 @@ video {
 		font-size: 0.8em;
 	}
 
-	.lamb a, .lamb h3{
+	.lamb a, .lamb h4{
 		color: rgb(255,239,238);
 	}
 
@@ -252,9 +256,7 @@ video {
 	}
 
 /*---------------------About Us Page-----------------------*/
-#history h3 {
-	margin: 0 0 16px 46px;
-}
+
 
 #staff {
 	height: 400px;
@@ -267,6 +269,14 @@ video {
 
 
 /*---------------------Services Page-----------------------*/
+
+#services ul {
+	margin-left: 48px;
+}
+
+	#services ul li {
+		margin-bottom: 16px;
+	}
 
 /*---------------------Partners Page-----------------------*/
 
