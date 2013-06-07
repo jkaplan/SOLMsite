@@ -256,10 +256,14 @@ video {
 	margin: 0 0 16px 46px;
 }
 
-#staff div {
-	text-align: right;
-	margin-right: 300px;
+#staff {
+	height: 400px;
+	margin: 64px 0;
 }
+	#staff div {
+		text-align: right;
+		margin-right: 300px;
+	}
 
 
 /*---------------------Services Page-----------------------*/
